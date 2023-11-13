@@ -4,28 +4,20 @@ internal sealed class Program
 {
     public static void Main()
     {
-        // var amt = 100m;
-        var negCount = 0;
-        var posCount = 0;
-        var iterations = 10000000;
+        var maxCount = 1000;
+        var amt = 100.0m;
 
-        for (int i = 0; i < iterations; i++)
+        var res = new decimal[maxCount];
+
+        for (int i = 0; i < maxCount; i++)
         {
             var sign = GetRandomSign();
-            if (sign > 0)
-            {
-                posCount++;
-            }
-            else
-            {
-                negCount++;
-            }
+            var delta = sign > 0 ? 1.01m : 0.99m;
+            res[i] = amt * delta;
+            amt = res[i];
+
+            Console.WriteLine($"step={i} amt={res[i]}");
         }
-
-        var negMed = negCount * 1.0m / iterations;
-        var posMed = posCount * 1.0m / iterations;
-
-        Console.WriteLine($"negMed={negMed} posMed={posMed}");
     }
 
     private static int GetRandomSign()
