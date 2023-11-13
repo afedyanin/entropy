@@ -1,2 +1,4 @@
-# entropy
-Playground repo
+# Entropy
+
+Playground Repo
+
