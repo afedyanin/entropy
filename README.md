@@ -8,5 +8,5 @@ Playground Repo
 
 ## math
 
-### Complex numbers
+### complex-numbers
 
