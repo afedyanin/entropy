@@ -4,9 +4,16 @@ Playground Repo
 
 ## fin-math
 
-### random-walk
+- [x] random-walk
+
 
 ## math
 
-### Complex numbers
+### complex-numbers
+
+- https://learn.microsoft.com/en-us/dotnet/api/system.numerics.complex?view=net-7.0
+- https://github.com/mathnet/mathnet-numerics
+- https://numerics.mathdotnet.com/
+
+
 
