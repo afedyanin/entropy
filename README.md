@@ -4,10 +4,8 @@ Playground Repo
 
 ## fin-math
 
-### random-walk
+- [x] random-walk
 
-- https://swharden.com/blog/2022-05-01-dotnet-dataframe/
-- https://zetcode.com/csharp/msa-dataframe/
 
 ## math
 
