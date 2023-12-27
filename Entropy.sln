@@ -19,6 +19,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "common", "common", "{F1331D
 		README.md = README.md
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeValueOfMoney", "src\TimeValueOfMoney\TimeValueOfMoney.csproj", "{A2CB0774-0DBC-4221-8548-4C31DC86DC4C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{C1257ED7-E439-4901-8F79-DEEE0FA09C64}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C1257ED7-E439-4901-8F79-DEEE0FA09C64}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C1257ED7-E439-4901-8F79-DEEE0FA09C64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2CB0774-0DBC-4221-8548-4C31DC86DC4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2CB0774-0DBC-4221-8548-4C31DC86DC4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2CB0774-0DBC-4221-8548-4C31DC86DC4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2CB0774-0DBC-4221-8548-4C31DC86DC4C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -40,6 +46,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{3AF25F8F-19DD-4DDD-B8B2-49EF9E4C2975} = {3291F551-9D3C-40B0-8FFA-5CAB1F84755C}
 		{C1257ED7-E439-4901-8F79-DEEE0FA09C64} = {3291F551-9D3C-40B0-8FFA-5CAB1F84755C}
+		{A2CB0774-0DBC-4221-8548-4C31DC86DC4C} = {3291F551-9D3C-40B0-8FFA-5CAB1F84755C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2433DACC-C8BA-4206-9A05-79CBA11534C6}
