@@ -2,10 +2,6 @@
 
 Playground Repo
 
-## fin-math
-
-- [x] random-walk
-
 
 ## math
 
@@ -17,14 +13,12 @@ Playground Repo
 
 - [GitHub Flavored Markdown Spec](https://github.github.com/gfm/)
 
-
+### Sample
 
 show math inline:  $\sqrt{3x-1}+(1+x)^2$
 
 **The Cauchy-Schwarz Inequality**
 $$\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)$$
-
-
 
 
 ### complex-numbers
